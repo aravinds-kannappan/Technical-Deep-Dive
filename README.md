@@ -9,6 +9,8 @@ Beginner-friendly technical articles that build from a concrete problem to plain
 
 Open `index.html` locally, or serve the repository with `python3 -m http.server 8765`. No build step is required. Each article is self-contained and includes navigation, search, a theme toggle, print styles, code excerpts, and diagrams. The PDF cheatsheets remain in `study-guides/`. All three articles include six interactive SVG plots apiece, distributed across the reading path, with local controls, explicit illustrative-data labels, and guided “try this” explanations. The plots use inline JavaScript with no external dependencies.
 
+The three PDF cheatsheets are technical reference notes in the original two-page landscape, two-column format, with a six-page combined edition. They use regular-weight text and inline mathematics with locally defined symbols. The notes cover data contracts, architecture, inference, training, evaluation, memory and latency, and failure cases; they omit motivation, interview scripts, code excerpts, and source-file commentary. Reported measurements retain their populations and limitations, and illustrative calculations are labeled.
+
 ## Editorial approach
 
 The articles introduce the motivation before the mechanism, define technical terms and notation before using them, and explain each calculation in ordinary language. Readers can follow the core explanation without already knowing machine learning. Optional disclosures retain full derivations, pinned code excerpts, and implementation edge cases. The two Chip Huyen posts supplied as editorial references—[RLHF](https://huyenchip.com/2023/05/02/rlhf.html) and [multimodality](https://huyenchip.com/2023/10/10/multimodal.html)—informed this explanatory structure. The article prose is original.
