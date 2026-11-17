@@ -2,8 +2,8 @@
 
 Long-form technical articles that build from a concrete problem to worked examples, mathematics, implementation, and evaluation.
 
-- [Synthure](synthure_deep_dive.html): clinical extraction, code retrieval, calibrated readiness, report generation, and review.
-- [Replays AI](replays_ai_deep_dive.html): sports data, event selection, caching, personalization, LoRA, and reliable state.
+- [Synthure](synthure_deep_dive.html): hospital origins, patient understanding, coordination, care and coverage fit, then clinical extraction, retrieval, shared encounter state, and review.
+- [Replays AI](replays_ai_deep_dive.html): the personal sports desk thesis, sports data, worked ranking mathematics, autoregressive inference, attention, LoRA training, evaluation, and serving economics.
 - [Platonic Universe](eleutherai_platonic_universe_deep_dive.html): representation geometry, physical transfer, statistical testing, and GPU infrastructure.
 - [Combined Synthure + Replays edition](synthure_replays_engineering_masterclass.html): both product articles with a cross-system comparison.
 
@@ -12,6 +12,8 @@ Open `index.html` locally, or serve the repository with `python3 -m http.server 
 ## Editorial approach
 
 The articles introduce the motivation before the mechanism, define notation alongside its use, and explain tradeoffs through concrete examples. The two Chip Huyen posts supplied as editorial references—[RLHF](https://huyenchip.com/2023/05/02/rlhf.html) and [multimodality](https://huyenchip.com/2023/10/10/multimodal.html)—informed this explanatory structure. The article prose is original.
+
+Synthure’s origin account comes from the founder’s hospital-volunteering experience. The articles distinguish company ambitions from current implementation and describe existing adjacent products without claiming an empty market. Replays includes derived numerical examples alongside the cheatsheet equations.
 
 Code excerpts link to the source revisions discussed. Worked examples are illustrative, reported metrics retain their dataset and provenance, and proposed improvements are distinguished from implemented behavior. The editorial rewrite does not claim new model training, clinical evaluation, production benchmarks, or scientific reproduction.
 
